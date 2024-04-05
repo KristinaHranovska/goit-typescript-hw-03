@@ -43,4 +43,4 @@ class Manager extends Employee {
 
 const manager = new Manager("John", "IT Department", 10000);
 
-export {};
+export { Employee, Manager };

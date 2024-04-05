@@ -68,4 +68,4 @@ const person = new Person(key);
 house.openDoor(person.getKey());
 house.comeIn(person);
 
-export {};
+export { Key, MyHouse, Person };
